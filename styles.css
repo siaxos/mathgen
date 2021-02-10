@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "space";
+    background: url(anime.gif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.wrapper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'space';
+    src: url('normal.ttf') format('truetype');
+}
+
+.output {
+    width: 100%;
+    text-align: center;
+}
+
+input[type=text] {
+    margin-bottom: 20px;
+    border-radius: 4px;
+    height: 30px;
+    border: 3px solid black;
+}
+
+button {
+    height: 40px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 4px;
+}
+
+.credit {
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    width: 100%;
+}
