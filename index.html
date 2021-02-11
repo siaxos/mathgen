@@ -10,10 +10,23 @@
 </head>
 <body>
     <div class="wrapper">
-        <input type="text" id="number" placeholder="  Number">
-        <button onclick="main()">Generate</button>
-        <div class="output" id="output">Output</div>
-        <div class="credit">Programmed by Siaxos</div>
+        <div class="calculator">
+            <div class="display" id="number" contenteditable="true">Programmed by Siaxos</div>
+            <div class="item one">1</div>
+            <div class="item two">2</div>
+            <div class="item three">3</div>
+            <div class="item four">4</div>
+            <div class="item five">5</div>
+            <div class="item six">6</div>
+            <div class="item seven">7</div>
+            <div class="item eight">8</div>
+            <div class="item nine">9</div>
+            <div class="item plus operator">+</div>
+            <div class="item divide operator">÷</div>
+            <div class="item times operator">x</div>
+            <div class="item minus operator">-</div>
+            <div onclick="main()" class="item blue equals">=</div>
+        </div>
     </div>
 </body>
 </html>

@@ -1,7 +1,7 @@
 function main() {
     // Variables for elements that need to be changed
-    var input = document.getElementById("number").value;
-    var output = document.getElementById("output");
+    var input = document.getElementById("number").innerHTML;
+    var output = document.getElementById("number");
 
     // Make input a number object
     var inputnumber = new Number(input);
@@ -28,9 +28,10 @@ function main() {
 
     // Outputs
     var divideoutput = divisionstring + " ÷ " + dividestring + " = " + divided;
-    var additionoutput = " + " + addstring + " = " + added;
-    var multiplyoutput = " x " + multiplystring + " = " + multiplied + " - " + multipliedwithminus + " = " + input;
+    var additionoutput = "+ " + addstring + " = " + added;
+    var multiplyoutput = "x " + multiplystring + " = " + multiplied + " - " + multipliedwithminus + " = " + input;
 
     // Change the output div's text to the mathematical output
-    output.innerHTML = `${divideoutput} ${additionoutput} ${multiplyoutput}`;
+    alert(`${divideoutput} ${additionoutput} ${multiplyoutput}`)
+    console.log(`${divideoutput} ${additionoutput} ${multiplyoutput}`);
 }
