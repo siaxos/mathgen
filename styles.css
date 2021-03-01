@@ -165,6 +165,7 @@ button {
 
 .teams {
     background-image: url('teams.png');
+    background-position: top left;
     background-size: cover;
     width: 100vw;
     height: 100vh;
