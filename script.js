@@ -35,3 +35,9 @@ function main() {
     alert(`${divideoutput} ${additionoutput} ${multiplyoutput}`)
     console.log(`${divideoutput} ${additionoutput} ${multiplyoutput}`);
 }
+
+function showTeams() {
+    var teams = document.getElementById("teams")
+
+    teams.style.visibility = "visible";
+}

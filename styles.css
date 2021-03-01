@@ -162,3 +162,13 @@ button {
 [contenteditable] {
     outline: 0px solid transparent;
 }
+
+.teams {
+    background-image: url('teams.png');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000000;
+    position: absolute;
+    visibility: hidden;
+}
